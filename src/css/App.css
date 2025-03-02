@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #000;
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.display{
+  text-align: right;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.span-two{
+  grid-row: span 2;
+}
